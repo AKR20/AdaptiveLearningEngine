@@ -1,0 +1,8 @@
+fastapi==0.115.3
+SQLAlchemy==2.0.27
+SQLAlchemy-Utils==0.41.1
+python-dotenv==1.0.1
+pydantic==2.6.3
+pydantic_core==2.16.3
+uvicorn==0.27.1
+openai==1.60.1
