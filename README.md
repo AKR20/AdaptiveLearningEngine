@@ -18,10 +18,15 @@ The Adaptive Learning Engine leverages advanced algorithms to tailor educational
 3. Install the required dependencies:
    pip install -r requirements.txt
 
-4. Create DB, tables and insert data:
+4. Create a .env file containing keys:
+   - AZURE_OPENAI_API_KEY
+   - AZURE_OPENAI_ENDPOINT
+   - AZURE_OPENAI_MODEL_NAME
+  
+5. Create DB, tables and insert data:
    python3 temp.py
 
-5. Start the server using uvicorn:
+6. Start the server using uvicorn:
    uvicorn app.main:app --host 0.0.0.0 --port 70 --reload
 
 ## API Documentation
