@@ -35,24 +35,24 @@ The Adaptive Learning Engine leverages advanced algorithms to tailor educational
 Handles session creation and recommendation retrieval for learners.
 
 Endpoints:
-POST /create-session – Creates a new learning session.
+**POST** /create-session – Creates a new learning session.
 ![image](https://github.com/user-attachments/assets/b29e6149-1e48-445d-96cc-c78f2776b001)
 
-POST /session/{id}/recommendation – Retrieves AI-driven recommendations for a session.
+**POST** /session/{id}/recommendation – Retrieves AI-driven recommendations for a session.
 ![image](https://github.com/user-attachments/assets/04604dfe-1ccb-48b8-b276-874813a5d0d2)
 
 ### 2. Analysis
 Handles chat session analysis for adaptive learning by storing chat history and generating responses.
 
 Endpoints:
-POST /analytics/student/{session_id} – Analyzes a chat session and generates the next response.
+**POST** /analytics/student/{session_id} – Analyzes a chat session and generates the next response.
 ![image](https://github.com/user-attachments/assets/82a45edb-349d-4d7a-a13e-263aaed8778b)
 
 ### 3. ChatWithLearner
 Handles chat interactions with GPT for adaptive learning by storing chat history and generating AI-driven responses.
 
 Endpoints:
-POST /chat-with-gpt – Processes learner responses and generates the next question
+**POST** /chat-with-gpt – Processes learner responses and generates the next question
 ![image](https://github.com/user-attachments/assets/1ced674e-8e9c-4d0d-957c-9efcc23a63ca)
 ![image](https://github.com/user-attachments/assets/1c493af5-ffff-4753-bca0-22df7209c9b6)
 ![image](https://github.com/user-attachments/assets/2c81ee79-d385-41a4-b127-668f25109d7d)
