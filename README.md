@@ -4,10 +4,9 @@
 The Adaptive Learning Engine leverages advanced algorithms to tailor educational content to each learner. By continuously analyzing performance data, the engine provides customized paths to enhance learning outcomes.
 
 ## Features
-- Personalized content recommendations
-- Real-time performance tracking
-- Dynamic difficulty adjustment
-- User-friendly interface
+- Personalized Content Recommendations: Tailored learning paths based on individual progress and preferences.
+- Real-time Performance Tracking: Monitors and analyzes learner performance continuously.
+- Dynamic Difficulty Adjustment: Adapts content complexity based on learner proficiency.
 
 ## Setup Instructions
 1. Clone the repository:
@@ -19,10 +18,10 @@ The Adaptive Learning Engine leverages advanced algorithms to tailor educational
 3. Install the required dependencies:
    pip install -r requirements.txt
 
-4. Create DB, tables and insert data.
+4. Create DB, tables and insert data:
    python3 temp.py
 
-5. Start the server using uvicorn
+5. Start the server using uvicorn:
    uvicorn app.main:app --host 0.0.0.0 --port 70 --reload
 
 ## API Documentation
